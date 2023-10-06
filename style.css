@@ -42,14 +42,19 @@ nav{
 .display{
 
     width: 320px;
-    height: 40px;
+    height: 80px;
     margin-bottom: 15px;
     margin-top: 15px;
+    padding: 5px;
     background-color: cornsilk;
-
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    font-weight: bolder;
+    font-size: 25px;
 }
 
-.btn{
+.btn,.operator,.clear,.equal{
     display:flex;
     width: 80px;
     height: 50px;
